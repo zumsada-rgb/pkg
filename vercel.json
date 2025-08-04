@@ -4,5 +4,11 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "VITE_BUILD_TARGET": "spa"
+    }
+  },
+  "outputDirectory": "dist/spa"
 }
